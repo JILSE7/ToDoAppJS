@@ -6,7 +6,6 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
-  border: 1px solid wheat;
   align-items: center;
 }
 
@@ -105,6 +104,12 @@ body {
 .main .completed {
   text-decoration: line-through;
   background-color: #0d1117;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -8,7 +8,6 @@ body {
     margin: 0;
     padding: 0;
     width: 100%;
-    border: 1px solid wheat;
     align-items: center;
 }
 
@@ -29,6 +28,7 @@ body {
     }
 }
 
+//ESTILOS PARA LA ENTRADA DE TAREAS
 .tasks {
     margin-top: 10px;
     display: flex;
@@ -103,9 +103,16 @@ body {
                 border: 1px solid rgba(39, 43, 68, 0.864);
             }
         }
-    }
+    } //CLASE COMPLETADA
     .completed {
         text-decoration: line-through;
         background-color: #0d1117;
     }
+}
+
+//foteer
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
